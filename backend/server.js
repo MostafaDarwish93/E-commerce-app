@@ -4,6 +4,7 @@ import dotenv from 'dotenv';
 import connectDB from './config/mongodb.js';
 import connectCloudinary from './config/cloudinary.js';
 import userRouter from './routes/userRoute.js';
+import productRouter from './routes/productRoute.js';
 
 dotenv.config({path:"./.env"}); // to access the environment variables
 // app config
@@ -18,6 +19,7 @@ app.use(cors());// to access the api from any domain
 
 // api endpoints
 app.use('/api/user', userRouter);
+app.use('/api/product', productRouter);
 
 app.get('/',(req,res)=>{
     res.status(200).send('Hello World');

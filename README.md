@@ -32,3 +32,17 @@ This is a backend project for an e-commerce application focused on clothing. The
   "stripe": "^17.5.0",
   "validator": "^13.12.0"
 }
+
+## Installation Guide
+
+### Prerequisites
+Before starting, make sure you have the following installed:
+- **Node.js**: Download and install it from [Node.js Official Website](https://nodejs.org/).
+- **Express**: Install it via npm using the command below.
+
+### Steps to Install and Run the Application
+1. **Clone the repository**  
+   Clone the project to your local machine using Git:  
+   ```bash
+   git clone <repository_url>
+

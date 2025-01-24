@@ -32,7 +32,7 @@ This is a backend project for an e-commerce application focused on clothing. The
   "stripe": "^17.5.0",
   "validator": "^13.12.0"
 }
-
+```
 ## Installation Guide
 
 ### Prerequisites

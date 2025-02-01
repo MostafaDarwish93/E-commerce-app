@@ -44,7 +44,7 @@ Before starting, make sure you have the following installed:
 1. **Clone the repository**  
    Clone the project to your local machine using Git:  
    ```bash
-   git clone [<repository_url>](https://github.com/MostafaDarwish93/E-commerce-app-MERN-stack.git)
+   git clone https://github.com/MostafaDarwish93/E-commerce-app-MERN-stack.git
    ```
 2. ** Navigate to the Project Directory **
   Go to the folder where the project is stored:

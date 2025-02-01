@@ -45,4 +45,31 @@ Before starting, make sure you have the following installed:
    Clone the project to your local machine using Git:  
    ```bash
    git clone <repository_url>
+   ```
+2. ** Navigate to the Project Directory **
+  Go to the folder where the project is stored:
+```bash
+ cd <project_directory>
+```
+3. **Install Dependencies**
+   Use npm to install all required dependencies:
+   ```bash
+   npm install
+   ```
+4. **Set Up Environment Variables**
+   Create a .env file in the project root
+   ```plaintext
+    PORT=5000
+    MONGO_URI=<your_mongodb_uri>
+    JWT_SECRET=<your_jwt_secret>
+    CLOUDINARY_URL=<your_cloudinary_url>
+    STRIPE_SECRET_KEY=<your_stripe_secret_key>
+    RAZORPAY_KEY=<your_razorpay_key>
+   ```
+5. **Run the Application**
+   Start the development server using the following command:
+   ```bash
+   npm run server
+   ```
+   
 
